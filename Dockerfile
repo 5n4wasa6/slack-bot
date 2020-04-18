@@ -1,7 +1,9 @@
-FROM nikolaik/python-nodejs:latest
+FROM node:11.7.0-slim
 
-WORKDIR /workspace
+WORKDIR /app
 
-COPY package*.json ./
-RUN npm install
-COPY . .
+COPY . /app
+
+RUN npm i
+
+CMD npm start
