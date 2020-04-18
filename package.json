@@ -18,13 +18,13 @@
     "start": "node ."
   },
   "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/5n4wasa6/slack-bot.git"
+    "type": "git",
+    "url": "git+ssh://git@github.com/5n4wasa6/slack-bot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-      "url": "https://github.com/5n4wasa6/slack-bot/issues"
+    "url": "https://github.com/5n4wasa6/slack-bot/issues"
   }
 }
